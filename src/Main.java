@@ -72,5 +72,19 @@ public class Main {
         } else {
             System.out.println("В вагоне нет свободных мест");
         }
+
+        System.out.println();
+        System.out.println("Задача 7");
+        int one = 56;
+        int two = 10;
+        int three = 217;
+
+        if (one > two && one > three) {
+            System.out.println("Наибольшее число: " + one);
+        } else if (two > one && two > three) {
+            System.out.println("Наибольшее число: " + two);
+        } else {
+            System.out.println("Наибольшее число: " + three);
+        }
         }
     }

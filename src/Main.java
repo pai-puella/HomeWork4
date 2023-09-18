@@ -49,7 +49,6 @@ public class Main {
 
         System.out.println();
         System.out.println("Задача 5");
-
         int childAge = 12;
 
         if (childAge < 5) {
@@ -58,6 +57,20 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на аттракционе в сопровождении взрослого");
         } else {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на аттракционе без сопровождения взрослого");
+        }
+
+        System.out.println();
+        System.out.println("Задача 6");
+        int passengers = 45; // Количество пассажиров
+
+        int seatedCapacity = 60; // Количество сидячих мест
+
+        if (passengers < seatedCapacity) {
+            System.out.println("В вагоне есть свободные сидячие места");
+        } else if (passengers < 102) {
+            System.out.println("В вагоне есть свободные стоячие места");
+        } else {
+            System.out.println("В вагоне нет свободных мест");
         }
         }
     }

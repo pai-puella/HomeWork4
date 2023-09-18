@@ -22,5 +22,15 @@ public class Main {
         }
 
         System.out.println("На улице " + tempOut + " градусов");
+
+        System.out.println();
+        System.out.println("Задача 3");
+        int speed = 65;
+
+        if (speed > 60) {
+            System.out.println("Если скорость " + speed + " км/ч, то придется заплатить штраф");
+        } else {
+            System.out.println("Если скорость " + speed + " км/ч, то можно ездить спокойно");
+        }
         }
     }
